@@ -1,0 +1,19 @@
+to find all the functions and methods available for any data type, you have to type "dir(datatype)", for example-
+#dir(str)
+#dir(list)
+#dir(dict)
+#dir(bool)
+
+we can also pass a specific data type like-
+#dir("Bangladesh")
+#dir([1, 2, 3])
+
+to find all the builtins function in python-
+#import builtins
+#dir(builtins)
+
+to know further about a method of a data type -help(datatype.methodname) for example- import
+help(list.append)
+help(builtins.zip)
+
+
