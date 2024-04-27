@@ -16,4 +16,6 @@ to know further about a method of a data type -help(datatype.methodname) for exa
 help(list.append)
 help(builtins.zip)
 
+list of all python third party libraries/modules will be found at pypi.org
+
 

@@ -1,33 +1,9 @@
-"""
-in this part we import a python standard module named "time". to see the details of this module right click on "time"
-and then chose "Go To" > Declarations and Usages", it will direct you to time.py module file.
-
-You can find all the standard modules here- https://docs.python.org/3/py-modindex.html    along with all the functions under each of the module.
-"""
-
-# time is a built-in python module. We can find the list of all builtin module names by running-
-               #import sys
-               #sys.builtin_module_names
-#to find the library path we can do the following in the python terminal
-#import sys
-#sys.prefix
-
-#to open the lib folder in mac/linux: type the path (Library/Frameworks/Python.framework/Versions/3.10) you get from the sys.prefix command with 'open' in the beginning of the command (in windows type start instead of open)
-#open /Library/Frameworks/Python.framework/Versions/3.10
-
-#built in modules are written in C language and built in inside the python softwere
-#while the standard modules come with the python installation as .py scripts.
-#Standard library is a jargon that includes both builtin modules written in C and also modules written in Python.
-#Standard libraries written in Python reside in the Python installation directory as .py files. You can find their directory path with sys.prefix
-
-
 import functions
 import time
 
 
 current_time =time.strftime("%B %d, %Y %H:%M:%S")
 print(f"It is {current_time}")
-
 
 while True:
     user_actions = input("Type add, show, edit, complete or exit: ")

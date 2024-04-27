@@ -1,2 +1,7 @@
-fun
-play
+snacks
+tea
+coffee
+fruits
+water
+chips
+exercisetake a break
