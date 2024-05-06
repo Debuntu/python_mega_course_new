@@ -1,7 +1,4 @@
-snacks
-tea
-coffee
-fruits
-water
-chips
-exercisetake a break
+cookies
+milk
+fun
+ cake
