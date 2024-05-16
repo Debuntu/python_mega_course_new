@@ -9,5 +9,5 @@ def archive_maker(filepaths, dest_dir):
             archive.write(filepath, arcname = filepath.name)
 
 
-    if __name__ == "__main__":
-        archive_maker(filepaths=["a.txt", "b.txt"])
+if __name__ == "__main__":
+    archive_maker(filepaths=["a.txt", "b.txt"])

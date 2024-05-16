@@ -1,8 +1,9 @@
-## in the final version, we will adjust for some error while clicking "Edit" or "Complete" button before selecting todos from list.
+## now we will make this app a stand alone executable on mac, for that we need to install platypus (a 3rd party tool on mac)
 
 import PySimpleGUI as sg
 import functions
 import time
+
 
 sg.theme("BrightColors")   #see available themes online for pysimpleGUI
 

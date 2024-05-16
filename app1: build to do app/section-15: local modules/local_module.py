@@ -1,18 +1,18 @@
 """
-in this part, we are writing our functions in a separate .py file named functions.py and we will import that functions
-or the entire file here. the functions.py file should be in the same directory as the original .py file that will be calling or importing
+in this part, we are writing our functions in a separate bonus.py file named functions.py and we will import that functions
+or the entire file here. the functions.py file should be in the same directory as the original bonus.py file that will be calling or importing
 or should be in a directory named modules.
 """
 
 """
 we can import the functions two ways-
-1.directly importing the functions from the file (without .py extension) where it is written for eaxmple- 
+1.directly importing the functions from the file (without bonus.py extension) where it is written for eaxmple- 
     
 from functions import get_todos, write_todos 
     
 or 
 
-2.importing the entire file (without .py extension) where the functions are defined for example- 
+2.importing the entire file (without bonus.py extension) where the functions are defined for example- 
 
 import functions 
 
