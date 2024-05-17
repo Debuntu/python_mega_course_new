@@ -13,9 +13,6 @@ def get_todos(filepath=FILEPATH):
         local_todos = file_local.readlines()
         return local_todos
 
-
-
-
 # in the below function we have 2 args, look at their order carefully- the default arg should always be followed by the non-default arg.
 def write_todos(todos_arg, filepath=FILEPATH):
     """write/overwrite a file with given todos arg and filepath"""
